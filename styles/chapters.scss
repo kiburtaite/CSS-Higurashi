@@ -1,0 +1,58 @@
+$primary-color: crimson;
+$secondary-color: rgb(134, 34, 54);
+
+h3, h4{
+    color: $primary-color;
+    text-align: center;
+}
+p{
+    color: $secondary-color;
+    font-size: 14px
+}
+img {
+    height: 250px;
+    margin: 10px
+}
+section{
+    width: 100%;
+    margin: 0 auto;
+    div{
+        div{
+        display:flex;
+            div{
+                display:flex;
+                flex-direction: column;
+            }
+        }
+    }
+    
+}
+.odd{
+    flex-direction: row-reverse;
+}
+.cd_image{
+    display:none
+}
+@media (min-width: 768px){
+    section{
+        width: 95%;
+    }
+    .cd_image{
+        display:block
+    }
+    img{
+        height: 300px
+    }
+}
+
+@media (min-width: 1024px){
+    p{
+        font-size: 16px}
+
+    section{
+        width: 85%;
+    }
+    img{
+        height: 360px
+    }
+}

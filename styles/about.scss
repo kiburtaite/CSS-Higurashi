@@ -1,0 +1,55 @@
+$primary-color: crimson;
+$secondary-color: rgb(134, 34, 54);
+
+main{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid $secondary-color;
+    padding-bottom: 30px;
+    h3{
+    color: $primary-color;
+    text-align: center;
+    }
+    article{
+        color: $secondary-color;
+        text-align: justify;
+        padding: 0px 5px;
+        hr{
+            border: none;
+        }
+        img{
+            height:200px;
+            padding: 10px;
+        }
+        .left{
+            float: left;
+        }
+        .right{
+            float: right;
+        }
+    }
+}
+
+@media (min-width: 768px){
+    main{
+        width: 90%;
+        article{
+            padding: 0px 20px;
+            img{
+            height: 250px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px){
+    main{
+        width: 80%;
+        padding-bottom: 60px;
+        article{
+            img{
+            height: 300px;
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+main {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #862236;
+  padding-bottom: 30px;
+}
+
+main h3 {
+  color: crimson;
+  text-align: center;
+}
+
+main article {
+  color: #862236;
+  text-align: justify;
+  padding: 0px 5px;
+}
+
+main article hr {
+  border: none;
+}
+
+main article img {
+  height: 200px;
+  padding: 10px;
+}
+
+main article .left {
+  float: left;
+}
+
+main article .right {
+  float: right;
+}
+
+@media (min-width: 768px) {
+  main {
+    width: 90%;
+  }
+  main article {
+    padding: 0px 20px;
+  }
+  main article img {
+    height: 250px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    width: 80%;
+    padding-bottom: 60px;
+  }
+  main article img {
+    height: 300px;
+  }
+}
+/*# sourceMappingURL=about.css.map */

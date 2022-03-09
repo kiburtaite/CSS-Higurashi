@@ -1,0 +1,20 @@
+$primary-color: crimson;
+$secondary-color: rgb(134, 34, 54);
+
+section{
+    text-align: center;
+    padding: 1rem;
+    h1{
+        color: $primary-color;
+    }
+    img{
+        height: 63vh
+    }
+}
+@media (min-width: 768px){
+    section{
+        img{
+            height: 75vh
+        }
+    }
+}

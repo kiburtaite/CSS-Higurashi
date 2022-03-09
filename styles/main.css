@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav div {
+  border: 1px solid crimson;
+  padding: 10px;
+  width: 95%;
+  text-align: center;
+}
+
+nav div a {
+  color: crimson;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+nav div a:hover {
+  font-weight: bold;
+}
+
+footer {
+  width: 95%;
+  margin: 0 auto;
+}
+
+footer div {
+  border: 1px solid crimson;
+  text-align: center;
+}
+
+footer div p {
+  color: crimson;
+}
+
+@media (min-width: 768px) {
+  nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 95%;
+    margin: 0 auto;
+  }
+  nav div {
+    padding: 10px;
+    width: 95%;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=main.css.map */

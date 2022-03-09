@@ -1,0 +1,19 @@
+section {
+  text-align: center;
+  padding: 1rem;
+}
+
+section h1 {
+  color: crimson;
+}
+
+section img {
+  height: 63vh;
+}
+
+@media (min-width: 768px) {
+  section img {
+    height: 75vh;
+  }
+}
+/*# sourceMappingURL=home.css.map */

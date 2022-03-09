@@ -1,0 +1,45 @@
+main {
+  width: 100%;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+main div {
+  border: 1px solid #862236;
+  padding: 10px;
+  text-align: center;
+}
+
+main p, main h3 {
+  color: crimson;
+  font-size: 14px;
+}
+
+main img {
+  height: 250px;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  main {
+    width: 95%;
+    -ms-grid-columns: 1fr 2fr 2fr 1fr;
+        grid-template-columns: 1fr 2fr 2fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    width: 90%;
+  }
+  main img {
+    height: 360px;
+  }
+  main p {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=characters.css.map */

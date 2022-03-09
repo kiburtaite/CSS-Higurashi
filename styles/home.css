@@ -1,19 +1,29 @@
 section {
   text-align: center;
-  padding: 1rem;
+  margin: 10px 40px;
+  width: 95%;
+  height: 75vh;
+  background-image: url("../media/welcome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 section h1 {
   color: crimson;
-}
-
-section img {
-  height: 63vh;
+  font-size: 40px;
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  text-shadow: 5px 5px 5px black, 5px 5px 5px black, -5px -5px 5px black, -5px -5px 5px black;
 }
 
 @media (min-width: 768px) {
-  section img {
-    height: 75vh;
+  section {
+    height: 85vh;
+  }
+  section h1 {
+    left: 180px;
   }
 }
 /*# sourceMappingURL=home.css.map */
